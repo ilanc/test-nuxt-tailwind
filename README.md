@@ -1,18 +1,19 @@
 # notes
 
-Translated a vue3 app to nuxt to experiment with layouts and routing. See [layout](./layouts/default.vue).
+Broken in [rc1](https://github.com/ilanc/test-nuxt-tailwind/commit/3d08959eda24d195f014cd33c5e868952b831566)  was working in nuxt3.
 
-NB uses hardcoded html in `<template>` - see [4-tw](../4-tw/layouts/simpleDarkHeadlessUI.vue) for a layout which uses `v-for`
+various links
 
-## links
-
-- [vue3 vue-router version](file:///code/web/vue3/prototype/shell-layout-routing/README.md)
-- [4-tw](../4-tw/README.md)
-- [tw-notes.md](../tw-notes.md)
-
-## demos
-
-page-request
-
-- if you go to `Blog (page-request)` it uses `<a href>` so will do a page-request
-- all other nav items use `<nuxt-link>` so will do ux route switch
+- [rc1 release notes](https://github.com/nuxt/framework/releases/tag/v3.0.0-rc.1)
+- [breaking changes](https://github.com/nuxt/framework/discussions/2883)
+- [commit which broke the build](https://github.com/ilanc/test-nuxt-tailwind/commit/3d08959eda24d195f014cd33c5e868952b831566)
+- nuxt tailwind community module
+  - [1](https://tailwindcss.nuxtjs.org/setup)
+  - [2](https://github.com/nuxt-community/tailwindcss-module)
+- how to get tailwind working in nuxt3
+  - https://github.com/nuxt/framework/issues/2326
+  - https://github.com/nuxt/framework/issues/2886
+    - https://github.com/nuxt/framework/issues/2886#issuecomment-1021132468
+- headlessui / heroicons related
+  - https://github.com/nuxt/framework/issues/3162
+  - https://github.com/nuxt/framework/discussions/2883
